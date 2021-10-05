@@ -1,0 +1,289 @@
+body {
+  background-color: rgb(253, 252, 252) !important;
+}
+
+.login {
+  margin: auto !important;
+  width: 55%;
+  padding: 64px;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+.login-h1 {
+  margin: auto !important;
+  width: 55%;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  text-transform: uppercase;
+}
+.login input #login_username {
+  text-transform: lowercase;
+}
+.login .form-group {
+  font-family: monospace;
+}
+.login input {
+  border-radius: 0px;
+}
+
+.login button {
+  float: right;
+  width: 28%;
+  border-radius: 0px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  padding: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: revert;
+}
+
+.swal2-popup {
+  background-color: rgb(241, 241, 241) !important;
+}
+.swal2-title {
+  color: #f27474 !important;
+}
+.add-form .form-control {
+  width: 91%;
+  border-radius: 0px;
+  margin: 35px;
+}
+.add-form .btn {
+  width: 66%;
+  border-radius: 0px;
+  margin: 35px;
+  border: 0px;
+  border-radius: 0px;
+  background-color: rgb(219, 189, 18) !important;
+  color: white;
+  font-weight: 700;
+}
+.add-form .btn:hover {
+  background-color: white !important;
+  color: rgb(219, 189, 18) !important;
+  border: 1px solid rgb(219, 189, 18);
+}
+
+#h1-home {
+  background-color: #f1f0f0;
+  color: rgb(153, 152, 152);
+  padding: 20px;
+  text-align: center;
+  font-size: 31px;
+  font-family: revert;
+  letter-spacing: 4px;
+}
+.card-body {
+  color: #343434;
+  margin: auto;
+  display: contents;
+}
+.card-body a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.card-title {
+  background-color: #343434;
+font-size: 17px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-family: system-ui;
+  letter-spacing: 1px;
+}
+.card-body a:hover {
+  text-decoration: none;
+  display: block;
+  color: black;
+  
+}
+.card-text {
+  text-align: center;
+  margin: 14px;
+  font-size: 17px;
+}
+.card {
+  margin-top: 37px;
+}
+
+.cards a {
+  margin: 12px;
+  background-color: #cdcd67;
+  padding: 9px;
+  border-radius: 47px;
+}
+
+.input-rate {
+  margin: auto;
+  display: block;
+  width: 29%;
+  height: 13%;
+  background-color: #f3f2f2;
+  border: 1px solid #e3e0e0;
+  border-radius: 31px;
+  text-align: center;
+}
+.btn-rate {
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 1px solid green;
+  background-color:green;
+  width: 27%;
+  border-radius: 35px;
+  color: white;
+}
+
+.btn-rate:hover{
+  border: 1px solid rgb(2, 78, 2);
+  background-color:rgb(2, 78, 2);
+}
+
+/* .skill {
+  text-transform: lowercase;
+} */
+.navbar {
+  background-color: white !important;
+  border-bottom: 1px solid #bfbbbb;
+}
+.navbar a {
+  color: green !important;
+}
+.navbar-light .navbar-nav .nav-item a {
+  color: green !important;
+}
+
+.navbar .navbar-nav li {
+  padding-right: 20px;
+  text-transform: capitalize;
+  font-family: inherit;
+  color: whitesmoke !important;
+  font-weight: 500;
+}
+.navbar .logout .nav-link {
+  color: green !important;
+  /* background-color: green; */
+  border: 1px solid green;
+  border-radius: 4px;
+  /* padding: 6px; */
+  /* font-weight: 300; */
+
+}
+
+.navbar .logout .nav-link:hover {
+  color: whitesmoke !important;
+  background-color: green !important;
+
+  cursor: pointer;
+
+}
+
+.carousel-caption{
+    right: 57% !important;
+    padding-bottom: 200px !important;
+    font-size: 45px;
+    width: 40%;
+    font-weight: 900;
+}
+
+
+.skill {
+    margin: auto !important;
+    width: 55%;
+    padding: 64px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    box-shadow: 7px 8px 15px lightgrey;
+  }
+  .skill-h1 {
+    margin: auto !important;
+    width: 55%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+  }
+  .skill input{
+    text-transform: lowercase;
+  }
+  .skill .form-group {
+    font-family: monospace;
+    font-weight: 700;
+  }
+  .skill input {
+    border-radius: 0px;
+  }
+  
+  .skill button {
+    float: right;
+    width: 28%;
+    border-radius: 0px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: revert;
+  }
+
+  .skill button:hover{
+    background-color: rgb(0, 80, 0);
+  }
+
+
+
+@media (max-width:793px){
+    .carousel-caption{
+        right: 57% !important;
+        padding-bottom: 59px !important;
+        font-size: 30px;
+    }
+}
+
+/* 
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+} */

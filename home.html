@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-right navbar-light bg-transparent">
+      <div class="container">
+
+      <a class="navbar-brand m-auto" href="#">SKILL RATING APP</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active" >
+          <a class="nav-link" href="#"
+          >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add-skill.html">Add Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Services</a>
+        </li>
+        
+        <li class="nav-item"> <a class="nav-link" href="#">My Skills</a></li>
+        <li class="logout">
+          <a class="nav-link"  onclick="signOut()"
+          > <i class="fa fa-sign-out" aria-hidden="true"></i>Logout
+        </a>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/slider1.jpg" alt="First slide">
+          <div class="carousel-caption ">
+            <span>Find the perfect  <i>freelance</i>
+              services for your business
+            </span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/slider2.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <span>Find the perfect  <i>freelance</i>
+              services for your business
+            </span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/slider3.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <span>Find the perfect  <i>freelance</i>
+              services for your business
+            </span>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+
+    <div class="container">
+
+      
+      <div class="row mt-5">
+        <div class="col-md-12">
+
+          <h3>Popular professional services</h3>
+        </div>
+      </div>
+
+      <div class="row" id="row">
+        <!-- <div class="col-md-4">
+          <div class="card text-white">
+            <img class="card-img-top" src="images/skill.jpeg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title" value="Javascript">
+                <a id="card-title" href="service.html">JAVASCRIPT</a>
+              </h4>
+              <p class="card-text">
+                Users : 2 <i class="fa fa-eye" aria-hidden="true"></i>
+              </p>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="card" id="card">
+            
+          </div> -->
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="js/script.js"></script> -->
+
+    <script>
+      // let card = document.getElementById('card');
+
+      // let body =  document.createElement('card-body');
+      // let title =  document.createElement('card-title');
+      // let text =  document.createElement('p');
+
+      // title.innerHTML = 'JS';
+      // text.innerHTML = 'users';
+
+      // body.appendChild(title);
+      // body.appendChild(text);
+      // card.appendChild(body);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+
+    <script src="js/script.js"></script>
+    <script>
+      homeCards();
+      // userCheck();
+      // cards();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

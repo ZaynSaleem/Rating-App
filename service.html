@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Services</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-right navbar-light">
+      <div class="container">
+
+      <a class="navbar-brand m-auto" href="#">SKILL RATING APP</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active" >
+          <a class="nav-link" href="#"
+          >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add-skill.html">Add Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Services</a>
+        </li>
+        
+        <li class="nav-item"> <a class="nav-link" href="#">My Skills</a></li>
+        <li class="logout">
+          <a class="nav-link"  onclick="signOut()"
+          > <i class="fa fa-sign-out" aria-hidden="true"></i>Logout
+        </a>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+
+</nav>
+
+    <h1 id="h1-home">SERVICES</h1>
+    <div class="container">
+      <div class="row" id="row">
+       
+          
+            <!-- <img class="card-img-top" src="images/skill.jpeg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title"><a href="#">JAVASCRIPT</a></h4>
+              <p class="card-text">
+                Users : 2 <i class="fa fa-eye" aria-hidden="true"></i>
+              </p>
+            </div> -->
+    
+        <div id="rate">
+            <!-- <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label> -->
+          </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+
+    <script>
+   
+    //   const firebaseConfig = {
+    //     apiKey: "AIzaSyAGPyf_yzRb6FIsNjPG8E6CCnLfGdiLm4s",
+    //     authDomain: "skill-rating-app.firebaseapp.com",
+    //     projectId: "skill-rating-app",
+    //     storageBucket: "skill-rating-app.appspot.com",
+    //     messagingSenderId: "330245032491",
+    //     appId: "1:330245032491:web:06ef5c2fb359cdcd32386e",
+    //     measurementId: "G-NQN26FRHQ0",
+    //   };
+
+    //   // Initialize Firebase
+    //   const app = firebase.initializeApp(firebaseConfig);
+    </script>
+
+<script src="js/script.js"></script>
+
+    <script>
+      service();
+    </script>
+
+
+
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
